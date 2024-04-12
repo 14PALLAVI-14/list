@@ -1,0 +1,58 @@
+/* Styling for the to-do list */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4e1194;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #060d05;
+    border: 1px solid #19b220;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(180, 34, 97, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #159030;
+    border-radius: 3px;
+  }
+  
+  .add-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1c0737;
+    color: #2e0761;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-btn:hover {
+    background-color: #341057;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px 0;
+    border-bottom: 1px solid #0e0983;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
